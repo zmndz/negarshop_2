@@ -1,0 +1,17 @@
+@import 'partials/variables/_colors';
+
+// No media query since this is the default style
+@import 'partials/breakpoints/_default';
+
+// Small devices (landscape phones, 576px and up)
+@import 'partials/breakpoints/_small';
+
+// Medium devices (tablets, 768px and up)
+@import 'partials/breakpoints/_medium';
+
+// Large devices (desktops, 992px and up)
+@import 'partials/breakpoints/_large';
+
+// Extra large devices (large desktops, 1200px and up)
+@import 'partials/breakpoints/_extra';
+
