@@ -129,10 +129,2158 @@
 			</div>
 		</div>
 	</header>
-	<header class="container-fluid header-desktop d-none d-sm-none d-md-none d-lg-block d-xl-block">
-		<div class="row">
-			<div class="col-12">
-				dektop header
+
+	<header class="header-desktop d-none d-sm-none d-md-none d-lg-block d-xl-block">
+		<div class="container">
+			<div class="row">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-auto">
+							<a href="#">
+								<img class="header-desktop__logo" src="assets/images/logo.png" alt="">					
+							</a>
+						</div>
+						<div class="col-lg header-desktop__search-form">
+							<form action="">
+								<div class="row no-gutters header-desktop__search-input-wrapper">
+									<input type="hidden" name="post_type" value="product">
+									<input class="header-desktop__search-input" type="search" placeholder="جستجو در محصولات..." name="">
+									
+									<div class="header-desktop__search-buttons">
+										<button type="button" class="header-desktop__search-icon">
+											<ion-icon name="search-outline"></ion-icon>
+										</button>
+										<button type="button" class="js-header-desktop__filters header-desktop__filters">
+											<ion-icon name="filter-outline"></ion-icon>
+										</button>
+									</div>
+
+									<div class="header-desktop__filters-wrapper">
+										<button type="button" class="js-header-desktop__filters-check header-desktop__filters-check">
+											<ion-icon name="checkmark-outline"></ion-icon>
+										</button>
+										<div class="js-header-desktop__filters-options header-desktop__filters-options">
+											<select class="js-header-desktop__filters-category">
+												<option value="0">همه دسته ها</option>
+												<option value="1">کالای دیجیتال</option>
+												<option value="2">تیشرت</option>
+												<option value="3">سویشرت</option>
+												<option value="4">شلوار</option>
+												<option value="5">لپتاپ</option>
+												<option value="6">موبایل</option>
+												<option value="7">تلویزیون</option>
+												<option value="8">لوازم آشپزخانه</option>
+												<option value="9">اسباب بازی</option>
+												<option value="10">لوازم ورزشی</option>
+											</select>
+											<select class="js-header-desktop__filters-product">
+												<option value="0">همه محصولات</option>
+												<option value="1">فقط موجودها</option>
+											</select>
+<!-- 											<div type="button" class="header-desktop__filters-category">
+												<span>همه دسته ها</span><ion-icon name="caret-down-outline"></ion-icon>
+											</div>
+											<div type="button" class="header-desktop__filters-category">
+												<span>فقط موجودها</span><ion-icon name="caret-down-outline"></ion-icon>
+											</div> -->
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-lg-auto">
+							<div class="js-header-desktop__account header-desktop__account">
+								<div class="header-desktop__account-profile">
+									<ion-icon name="person-outline"></ion-icon>
+								</div>
+								<div class="header-desktop__account-links">
+									<span class="header-desktop__account-title">حساب کاربری</span>
+									<span class="header-desktop__account-subtitle">لطفا وارد حساب خود شوید!</span>
+								</div>
+								<ul class="header-desktop__account-menu">
+									<li>
+										<a href="#" class="header-desktop__account-menu-item">
+											ورود به حساب												
+										</a>
+									</li>
+									<li>
+										<a href="#" class="header-desktop__account-menu-item">
+											ثبت نام												
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-desktop__navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg px-0">
+						<div class="header-desktop__navbar-wrapper">
+							<ul class="header-desktop__navbar">
+								<li class="js-header-desktop__navbar-list header-desktop__navbar-list">
+									<a href="#" class="header-desktop__navbar-item">
+										کالای دیجیتال
+									</a>
+									<div class="header-desktop__navbar-submenu">
+										<div class="row no-gutters w-100">
+											<div class="col-lg-2">
+												<div class="header-desktop__tabs-wrapper">
+													<ul class="header-desktop__tabs">
+														<li class="js-header-desktop__tabs-list header-desktop__tabs-list">
+															<a href="#" class="header-desktop__tabs-item header-desktop__tabs-item--active" data-index="0">
+																گوشی موبیال
+															</a>
+														</li>
+														<li class="js-header-desktop__tabs-list header-desktop__tabs-list">
+															<a href="#" class="header-desktop__tabs-item" data-index="1">
+																لوازم جانبی
+															</a>
+														</li>
+														<li class="js-header-desktop__tabs-list header-desktop__tabs-list">
+															<a href="#" class="header-desktop__tabs-item" data-index="2">
+																لپ تاپ و کامپیوتر
+															</a>
+														</li>
+														<li class="js-header-desktop__tabs-list header-desktop__tabs-list">
+															<a href="#" class="header-desktop__tabs-item" data-index="3">
+																لوازم خانگی
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<div class="col-lg-10">
+												<div class="header-desktop__navbar-content">
+													<div class="header-desktop__navbar-slider header-desktop__navbar-slider--active" data-index="0">
+														<div class="header-desktop__owl-carousel owl-carousel owl-theme">
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg"  alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+														</div>
+													</div>
+													<div class="header-desktop__navbar-slider" data-index="1">
+														<div class="header-desktop__owl-carousel owl-carousel owl-theme">
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg"  alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+														</div>
+													</div>
+													<div class="header-desktop__navbar-slider" data-index="2">
+														<div class="header-desktop__owl-carousel owl-carousel owl-theme">
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg"  alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+														</div>
+													</div>
+													<div class="header-desktop__navbar-slider" data-index="3">
+														<div class="header-desktop__owl-carousel owl-carousel owl-theme">
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg"  alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+													    <div class="header-desktop__owl-carousel-item">
+													    	<a href="#" class="header-desktop__owl-carousel-item--link">
+													    		<img class="header-desktop__owl-carousel-item--product-image owl-lazy" data-src="assets/images/product_2.jpg" alt="Description about image">
+													    		<div class="header-desktop__owl-carousel-item--product-name">
+													    			متابوک هواوای دی رایزن 5
+													    		</div>
+													    		<div class="header-desktop__owl-carousel-item--product-price">
+													    			12،000،000 تومان
+													    		</div>
+													    	</a>
+													    </div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="js-header-desktop__navbar-list header-desktop__navbar-list">
+									<a href="#" class="header-desktop__navbar-item">
+										آرایشی بهداشتی
+									</a>
+									<div class="header-desktop__navbar-submenu">
+										<div class="row w-100">
+											<div class="col-lg-12">
+												<ul class="header-desktop__column-menu header-desktop__column-menu--active">
+													<li class="header-desktop__column-menu-list">
+														<a href="#" class="header-desktop__column-menu-title">
+															لوازم آرایشی
+														</a>
+														<ul class="header-desktop__column-menu-submenu">
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش چشم و ابرو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش لب
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش صورت
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	تجهیزات جانبی آرایشی
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	سنگ پا و زیبایی ناخن
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	مواد آرایش مو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	کرم و مراقبت پوست
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	شامپو و مراقبت مو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	بهداشت دهان و دندان
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	بهداشت و مراقبت بدن
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	ضد تعریق
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header-desktop__column-menu-list">
+														<a href="#" class="header-desktop__column-menu-title">
+															لوازم آرایشی
+														</a>
+														<ul class="header-desktop__column-menu-submenu">
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش چشم و ابرو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش لب
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش صورت
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	تجهیزات جانبی آرایشی
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	سنگ پا و زیبایی ناخن
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	مواد آرایش مو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	کرم و مراقبت پوست
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	شامپو و مراقبت مو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	بهداشت دهان و دندان
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	بهداشت و مراقبت بدن
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	ضد تعریق
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header-desktop__column-menu-list">
+														<a href="#" class="header-desktop__column-menu-title">
+															لوازم آرایشی
+														</a>
+														<ul class="header-desktop__column-menu-submenu">
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش چشم و ابرو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش لب
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش صورت
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	تجهیزات جانبی آرایشی
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	سنگ پا و زیبایی ناخن
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	مواد آرایش مو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	کرم و مراقبت پوست
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	شامپو و مراقبت مو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	بهداشت دهان و دندان
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	بهداشت و مراقبت بدن
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	ضد تعریق
+																</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="js-header-desktop__navbar-list header-desktop__navbar-list">
+									<a href="#" class="header-desktop__navbar-item">
+										ابزار اداری
+									</a>
+									<div class="header-desktop__navbar-submenu header-desktop__navbar-submenu--single-column">
+										<div class="row no-gutters w-100">
+											<div class="col-lg-12">
+												<ul class="header-desktop__single-menu">
+													<li class="header-desktop__single-menu-list">
+														<a href="#" class="header-desktop__single-menu-item">
+															دریل، پیچ گوشتی، چکشی
+														</a>
+													</li>
+													<li class="header-desktop__single-menu-list">
+														<a href="#" class="header-desktop__single-menu-item">
+															اره برقی
+														</a>
+													</li>
+													<li class="header-desktop__single-menu-list">
+														<a href="#" class="header-desktop__single-menu-item">
+															کارواش
+														</a>
+													</li>
+													<li class="header-desktop__single-menu-list header-desktop__single-menu-list--with-submenu">
+														<a href="#" class="header-desktop__single-menu-item">
+															لوازم مصرفی خودرو
+														</a>
+														<span class="header-desktop__single-menu-item--arrow">
+															<ion-icon name="chevron-forward-outline"></ion-icon>
+														</span>
+														<ul class="header-desktop__single-menu-submenu">
+															<li class="header-desktop__single-menu-submenu-list">
+																<a href="#" class="header-desktop__single-menu-submenu-item">
+																	انواع فیلتر
+																</a>
+															</li>
+															<li class="header-desktop__single-menu-submenu-list">
+																<a href="#" class="header-desktop__single-menu-submenu-item">
+																	روغن موتور و ضد یخ
+																</a>
+															</li>
+															<li class="header-desktop__single-menu-submenu-list">
+																<a href="#" class="header-desktop__single-menu-submenu-item">
+																	مکمل سوخت و روغن
+																</a>
+															</li>
+															<li class="header-desktop__single-menu-submenu-list">
+																<a href="#" class="header-desktop__single-menu-submenu-item">
+																	یدکی، لاستیک، لامپ و چراغ
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header-desktop__single-menu-list">
+														<a href="#" class="header-desktop__single-menu-item">
+															مکنده و دمنده
+														</a>
+													</li>
+													<li class="header-desktop__single-menu-list">
+														<a href="#" class="header-desktop__single-menu-item">
+															فرز و سنگ رومیزی
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="js-header-desktop__navbar-list header-desktop__navbar-list">
+									<a href="#" class="header-desktop__navbar-item">
+										مد و پوشاک
+									</a>
+									<div class="header-desktop__navbar-submenu">
+										<div class="row no-gutters w-100">
+											<div class="col-lg-2">
+												<div class="header-desktop__tab-menu-wrapper">
+													<ul class="header-desktop__tab-menu">
+														<li class="js-header-desktop__tab-menu-list header-desktop__tab-menu-list">
+															<a href="#" class="header-desktop__tab-menu-item header-desktop__tab-menu-item--active" data-index="0">
+																منوی اول
+															</a>
+														</li>
+														<li class="js-header-desktop__tab-menu-list header-desktop__tab-menu-list">
+															<a href="#" class="header-desktop__tab-menu-item" data-index="1">
+																منوی دوم
+															</a>
+														</li>
+														<li class="js-header-desktop__tab-menu-list header-desktop__tab-menu-list">
+															<a href="#" class="header-desktop__tab-menu-item" data-index="2">
+																منوی سوم
+															</a>
+														</li>
+														<li class="js-header-desktop__tab-menu-list header-desktop__tab-menu-list">
+															<a href="#" class="header-desktop__tab-menu-item" data-index="3">
+																منوی چهارم
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<div class="col-lg-10">
+												<div class="header-desktop__tab-menu-content-wrapper">
+													<ul class="header-desktop__tab-menu-content header-desktop__tab-menu-content--active" data-index="0">
+														<li class="header-desktop__tab-menu-content-list">
+															<a href="#" class="header-desktop__tab-menu-content-title">
+																لوازم آرایشی 1
+															</a>
+															<ul class="header-desktop__tab-menu-content-submenu">
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش چشم و ابرو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش لب
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش صورت
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		تجهیزات جانبی آرایشی
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		سنگ پا و زیبایی ناخن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		مواد آرایش مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		کرم و مراقبت پوست
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		شامپو و مراقبت مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت دهان و دندان
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت و مراقبت بدن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		ضد تعریق
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="header-desktop__tab-menu-content-list">
+															<a href="#" class="header-desktop__tab-menu-content-title">
+																لوازم آرایشی
+															</a>
+															<ul class="header-desktop__tab-menu-content-submenu">
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش چشم و ابرو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش لب
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش صورت
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		تجهیزات جانبی آرایشی
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		سنگ پا و زیبایی ناخن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		مواد آرایش مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		کرم و مراقبت پوست
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		شامپو و مراقبت مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت دهان و دندان
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت و مراقبت بدن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		ضد تعریق
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="header-desktop__tab-menu-content-list">
+															<a href="#" class="header-desktop__tab-menu-content-title">
+																لوازم آرایشی
+															</a>
+															<ul class="header-desktop__tab-menu-content-submenu">
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش چشم و ابرو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش لب
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش صورت
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		تجهیزات جانبی آرایشی
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		سنگ پا و زیبایی ناخن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		مواد آرایش مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		کرم و مراقبت پوست
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		شامپو و مراقبت مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت دهان و دندان
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت و مراقبت بدن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		ضد تعریق
+																	</a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="header-desktop__tab-menu-content" data-index="1">
+														<li class="header-desktop__tab-menu-content-list">
+															<a href="#" class="header-desktop__tab-menu-content-title">
+																لوازم آرایشی 2
+															</a>
+															<ul class="header-desktop__tab-menu-content-submenu">
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش چشم و ابرو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش لب
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش صورت
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		تجهیزات جانبی آرایشی
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		سنگ پا و زیبایی ناخن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		مواد آرایش مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		کرم و مراقبت پوست
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		شامپو و مراقبت مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت دهان و دندان
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت و مراقبت بدن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		ضد تعریق
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="header-desktop__tab-menu-content-list">
+															<a href="#" class="header-desktop__tab-menu-content-title">
+																لوازم آرایشی
+															</a>
+															<ul class="header-desktop__tab-menu-content-submenu">
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش چشم و ابرو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش لب
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش صورت
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		تجهیزات جانبی آرایشی
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		سنگ پا و زیبایی ناخن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		مواد آرایش مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		کرم و مراقبت پوست
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		شامپو و مراقبت مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت دهان و دندان
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت و مراقبت بدن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		ضد تعریق
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="header-desktop__tab-menu-content-list">
+															<a href="#" class="header-desktop__tab-menu-content-title">
+																لوازم آرایشی
+															</a>
+															<ul class="header-desktop__tab-menu-content-submenu">
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش چشم و ابرو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش لب
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش صورت
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		تجهیزات جانبی آرایشی
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		سنگ پا و زیبایی ناخن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		مواد آرایش مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		کرم و مراقبت پوست
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		شامپو و مراقبت مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت دهان و دندان
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت و مراقبت بدن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		ضد تعریق
+																	</a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="header-desktop__tab-menu-content" data-index="2">
+														<li class="header-desktop__tab-menu-content-list">
+															<a href="#" class="header-desktop__tab-menu-content-title">
+																لوازم آرایشی 3
+															</a>
+															<ul class="header-desktop__tab-menu-content-submenu">
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش چشم و ابرو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش لب
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش صورت
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		تجهیزات جانبی آرایشی
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		سنگ پا و زیبایی ناخن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		مواد آرایش مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		کرم و مراقبت پوست
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		شامپو و مراقبت مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت دهان و دندان
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت و مراقبت بدن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		ضد تعریق
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="header-desktop__tab-menu-content-list">
+															<a href="#" class="header-desktop__tab-menu-content-title">
+																لوازم آرایشی
+															</a>
+															<ul class="header-desktop__tab-menu-content-submenu">
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش چشم و ابرو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش لب
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش صورت
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		تجهیزات جانبی آرایشی
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		سنگ پا و زیبایی ناخن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		مواد آرایش مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		کرم و مراقبت پوست
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		شامپو و مراقبت مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت دهان و دندان
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت و مراقبت بدن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		ضد تعریق
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="header-desktop__tab-menu-content-list">
+															<a href="#" class="header-desktop__tab-menu-content-title">
+																لوازم آرایشی
+															</a>
+															<ul class="header-desktop__tab-menu-content-submenu">
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش چشم و ابرو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش لب
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش صورت
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		تجهیزات جانبی آرایشی
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		سنگ پا و زیبایی ناخن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		مواد آرایش مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		کرم و مراقبت پوست
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		شامپو و مراقبت مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت دهان و دندان
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت و مراقبت بدن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		ضد تعریق
+																	</a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="header-desktop__tab-menu-content" data-index="3">
+														<li class="header-desktop__tab-menu-content-list">
+															<a href="#" class="header-desktop__tab-menu-content-title">
+																لوازم آرایشی 4
+															</a>
+															<ul class="header-desktop__tab-menu-content-submenu">
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش چشم و ابرو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش لب
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش صورت
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		تجهیزات جانبی آرایشی
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		سنگ پا و زیبایی ناخن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		مواد آرایش مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		کرم و مراقبت پوست
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		شامپو و مراقبت مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت دهان و دندان
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت و مراقبت بدن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		ضد تعریق
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="header-desktop__tab-menu-content-list">
+															<a href="#" class="header-desktop__tab-menu-content-title">
+																لوازم آرایشی
+															</a>
+															<ul class="header-desktop__tab-menu-content-submenu">
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش چشم و ابرو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش لب
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش صورت
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		تجهیزات جانبی آرایشی
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		سنگ پا و زیبایی ناخن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		مواد آرایش مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		کرم و مراقبت پوست
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		شامپو و مراقبت مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت دهان و دندان
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت و مراقبت بدن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		ضد تعریق
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="header-desktop__tab-menu-content-list">
+															<a href="#" class="header-desktop__tab-menu-content-title">
+																لوازم آرایشی
+															</a>
+															<ul class="header-desktop__tab-menu-content-submenu">
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش چشم و ابرو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش لب
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		آرایش صورت
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		تجهیزات جانبی آرایشی
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		سنگ پا و زیبایی ناخن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		مواد آرایش مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		کرم و مراقبت پوست
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		شامپو و مراقبت مو
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت دهان و دندان
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		بهداشت و مراقبت بدن
+																	</a>
+																</li>
+																<li class="header-desktop__tab-menu-content-sublist">
+																	<a href="#" class="header-desktop__tab-menu-content-item">
+																		ضد تعریق
+																	</a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="js-header-desktop__navbar-list header-desktop__navbar-list">
+									<a href="#" class="header-desktop__navbar-item">
+										خانه و آشپزخانه
+									</a>
+									<div class="header-desktop__navbar-submenu">
+										<div class="row w-100">
+											<div class="col-lg-12">
+												<ul class="header-desktop__column-menu header-desktop__column-menu--active">
+													<li class="header-desktop__column-menu-list">
+														<a href="#" class="header-desktop__column-menu-title">
+															لوازم آرایشی
+														</a>
+														<ul class="header-desktop__column-menu-submenu">
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش چشم و ابرو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش لب
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش صورت
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	تجهیزات جانبی آرایشی
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	سنگ پا و زیبایی ناخن
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	مواد آرایش مو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	کرم و مراقبت پوست
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	شامپو و مراقبت مو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	بهداشت دهان و دندان
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	بهداشت و مراقبت بدن
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	ضد تعریق
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header-desktop__column-menu-list">
+														<a href="#" class="header-desktop__column-menu-title">
+															لوازم آرایشی
+														</a>
+														<ul class="header-desktop__column-menu-submenu">
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش چشم و ابرو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش لب
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش صورت
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	تجهیزات جانبی آرایشی
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	سنگ پا و زیبایی ناخن
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	مواد آرایش مو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	کرم و مراقبت پوست
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	شامپو و مراقبت مو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	بهداشت دهان و دندان
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	بهداشت و مراقبت بدن
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	ضد تعریق
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header-desktop__column-menu-list">
+														<a href="#" class="header-desktop__column-menu-title">
+															لوازم آرایشی
+														</a>
+														<ul class="header-desktop__column-menu-submenu">
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش چشم و ابرو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش لب
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	آرایش صورت
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	تجهیزات جانبی آرایشی
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	سنگ پا و زیبایی ناخن
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	مواد آرایش مو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	کرم و مراقبت پوست
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	شامپو و مراقبت مو
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	بهداشت دهان و دندان
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	بهداشت و مراقبت بدن
+																</a>
+															</li>
+															<li class="header-desktop__column-menu-sublist">
+																<a href="#" class="header-desktop__column-menu-item">
+																	ضد تعریق
+																</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="js-header-desktop__navbar-list header-desktop__navbar-list">
+									<a href="#" class="header-desktop__navbar-item">
+										لوازم تحریر و هنر
+									</a>
+								</li>
+								<li class="js-header-desktop__navbar-list header-desktop__navbar-list">
+									<a href="#" class="header-desktop__navbar-item">
+										کودک و نوزاد
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-auto">
+						<div class="header-desktop__cart-wrapper">
+							<a href="#" class="header-desktop__cart-outside">
+								<div class="header-desktop__cart-icon">
+									<ion-icon name="cart-outline"></ion-icon>
+								</div>
+								<div class="header-desktop__cart-labels">
+									<span class="header-desktop__cart-title">سبد خرید</span>
+									<span class="header-desktop__cart-subtitle">
+										<span class="header-desktop__cart-subtitle-price">0</span>
+										<span class="header-desktop__cart-subtitle-currency">تومان</span>
+									</span>
+								</div>
+								<div class="header-desktop__cart-count">
+									0
+								</div>
+							</a>
+							<div class="header-desktop__cart-content">
+								<!-- <div class="header-desktop__cart-empty">
+									<div class="header-desktop__cart-empty-icon">
+										<ion-icon name="alert-outline"></ion-icon>
+									</div>
+									<div class="header-desktop__cart-empty-text">
+										سبد خرید شما خالی است.
+									</div>
+								</div> -->
+								<div class="header-desktop__cart-full">
+									<ul class="header-desktop__cart-products">
+										<li class="header-desktop__cart-list">
+											<a href="#" class="header-desktop__cart-remove">
+												<ion-icon name="close-outline"></ion-icon>
+											</a>
+											<a href="#" class="header-desktop__cart-item">
+												<div class="header-desktop__cart-item-image">
+													<img src="assets/images/product.jpg" alt="">
+												</div>
+												<div class="header-desktop__cart-item-descriptions">
+													<div class="header-desktop__cart-item-name">
+														تی شرت آستین کوتاه مردانه بای نت
+													</div>
+													<div class="header-desktop__cart-item-detail">
+														<span class="header-desktop__cart-item-count">
+															1
+														</span>
+														<span class="header-desktop__cart-item-multiply">
+															<ion-icon name="close-outline"></ion-icon>															
+														</span>
+														<span class="header-desktop__cart-item-price">
+															165,000
+														</span>
+														<span class="header-desktop__cart-item-currency">
+															تومان
+														</span>
+													</div>
+													<div class="header-desktop__cart-item-seller">
+														<span>
+															فروشنده: 
+														</span>
+														<span class="header-desktop__cart-item-store">
+															سام تل
+														</span>
+													</div>
+												</div>
+											</a>
+										</li>	
+										<li class="header-desktop__cart-list">
+											<a href="#" class="header-desktop__cart-remove">
+												<ion-icon name="close-outline"></ion-icon>
+											</a>
+											<a href="#" class="header-desktop__cart-item">
+												<div class="header-desktop__cart-item-image">
+													<img src="assets/images/product.jpg" alt="">
+												</div>
+												<div class="header-desktop__cart-item-descriptions">
+													<div class="header-desktop__cart-item-name">
+														تی شرت آستین کوتاه مردانه بای نت
+													</div>
+													<div class="header-desktop__cart-item-detail">
+														<span class="header-desktop__cart-item-count">
+															1
+														</span>
+														<span class="header-desktop__cart-item-multiply">
+															<ion-icon name="close-outline"></ion-icon>															
+														</span>
+														<span class="header-desktop__cart-item-price">
+															165,000
+														</span>
+														<span class="header-desktop__cart-item-currency">
+															تومان
+														</span>
+													</div>
+													<div class="header-desktop__cart-item-seller">
+														<span>
+															فروشنده: 
+														</span>
+														<span class="header-desktop__cart-item-store">
+															سام تل
+														</span>
+													</div>
+												</div>
+											</a>
+										</li>	
+										<li class="header-desktop__cart-list">
+											<a href="#" class="header-desktop__cart-remove">
+												<ion-icon name="close-outline"></ion-icon>
+											</a>
+											<a href="#" class="header-desktop__cart-item">
+												<div class="header-desktop__cart-item-image">
+													<img src="assets/images/product.jpg" alt="">
+												</div>
+												<div class="header-desktop__cart-item-descriptions">
+													<div class="header-desktop__cart-item-name">
+														تی شرت آستین کوتاه مردانه بای نت
+													</div>
+													<div class="header-desktop__cart-item-detail">
+														<span class="header-desktop__cart-item-count">
+															1
+														</span>
+														<span class="header-desktop__cart-item-multiply">
+															<ion-icon name="close-outline"></ion-icon>															
+														</span>
+														<span class="header-desktop__cart-item-price">
+															165,000
+														</span>
+														<span class="header-desktop__cart-item-currency">
+															تومان
+														</span>
+													</div>
+													<div class="header-desktop__cart-item-seller">
+														<span>
+															فروشنده: 
+														</span>
+														<span class="header-desktop__cart-item-store">
+															سام تل
+														</span>
+													</div>
+												</div>
+											</a>
+										</li>	
+										<li class="header-desktop__cart-list">
+											<a href="#" class="header-desktop__cart-remove">
+												<ion-icon name="close-outline"></ion-icon>
+											</a>
+											<a href="#" class="header-desktop__cart-item">
+												<div class="header-desktop__cart-item-image">
+													<img src="assets/images/product.jpg" alt="">
+												</div>
+												<div class="header-desktop__cart-item-descriptions">
+													<div class="header-desktop__cart-item-name">
+														تی شرت آستین کوتاه مردانه بای نت
+													</div>
+													<div class="header-desktop__cart-item-detail">
+														<span class="header-desktop__cart-item-count">
+															1
+														</span>
+														<span class="header-desktop__cart-item-multiply">
+															<ion-icon name="close-outline"></ion-icon>															
+														</span>
+														<span class="header-desktop__cart-item-price">
+															165,000
+														</span>
+														<span class="header-desktop__cart-item-currency">
+															تومان
+														</span>
+													</div>
+													<div class="header-desktop__cart-item-seller">
+														<span>
+															فروشنده: 
+														</span>
+														<span class="header-desktop__cart-item-store">
+															سام تل
+														</span>
+													</div>
+												</div>
+											</a>
+										</li>	
+
+									</ul>
+									<div class="header-desktop__cart-total-price">
+										<span class="header-desktop__cart-total-price--label">
+											قیمت کل: 
+										</span>
+										<span class="header-desktop__cart-total-price--value">
+											350،000
+										</span>
+										<span class="header-desktop__cart-total-price--currency">
+											تومان
+										</span>
+									</div>
+									<div class="header-desktop__cart-actions">
+										<div class="header-desktop__cart-actions--view">
+											<a href="#" class="header-desktop__cart-actions--view-link">
+												مشاهده سبد خرید
+											</a>
+										</div>
+										<div class="header-desktop__cart-actions--checkout">
+											<a href="#" class="header-desktop__cart-actions--checkout-link">
+												<span class="pl-1">تسویه حساب</span>
+												<ion-icon name="chevron-forward-outline"></ion-icon>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</header>

@@ -18,3 +18,13 @@
 	font-weight: bold;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'vazir';
+	src: url('../fonts/vazir/Vazir-Thin-FD.eot'); 
+	src: url('../fonts/vazir/Vazir-Thin-FD.eot?#iefix') format('embedded-opentype'), 
+				url('../fonts/vazir/Vazir-Thin-FD.woff2') format('woff2'), 
+				url('../fonts/vazir/Vazir-Thin-FD.woff') format('woff'), 
+				url('../fonts/vazir/Vazir-Thin-FD.ttf')  format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
