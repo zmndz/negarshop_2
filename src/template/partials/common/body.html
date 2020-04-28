@@ -1,17 +1,37 @@
 <div class="container-fluid">
+	<!-- start header -->
 	@@include('header.html')
+	<!-- end header -->
+
 	<div class="container p-0">
+		<!-- start mainSlider -->
 		@@include('../sliders/mainSlider.html')
+		<!-- end mainSlider -->
+
+		<!-- start sideBanner and specialSlider -->
 		<div class="row">
 			<div class="d-none d-sm-none d-md-none d-lg-block d-xl-block col-lg-3">
+				<!-- start sideBanner -->
 				@@include('../banners/sideBanner.html')
+				<!-- end sideBanner -->
 			</div>
 			<div class="col-12 col-lg-9">
+				<!-- start specialSlider -->
 				@@include('../sliders/specialSlider.html')
+				<!-- end specialSlider -->
 			</div>
 		</div>
+		<!-- end sideBanner and specialSlider -->
+
+		<!-- start fullWidthBanner -->
 		@@include('../banners/fullWidthBanner.html')
+		<!-- end fullWidthBanner -->
+
+		<!-- start quarterBanner -->
 		@@include('../banners/quarterBanner.html')
+		<!-- end quarterBanner -->
+
+		<!-- start productSlider and momentSlider -->
 		<div class="row">
 			<div class="col-12 col-lg-9">
 				@@include('../sliders/productSlider.html', {"title": "مد و پوشاک", "product": "متابوک هواوای دی رایزن 5", "price": "7,800,000"})
@@ -20,27 +40,46 @@
 				@@include('../sliders/momentSlider.html')
 			</div>
 		</div>
+		<!-- end productSlider and momentSlider -->
+
+		<!-- start productSlider -->
 		<div class="row">
 			<div class="col-12">
 				@@include('../sliders/productSlider.html', {"title": "کالای دیجیتال", "product": "متابوک هواوای دی رایزن 5", "price": "7,800,000"})
 			</div>
 		</div>
+		<!-- end productSlider -->
+
+		<!-- start quarterBanner -->
 		@@include('../banners/quarterBanner.html')
+		<!-- end quarterBanner -->
+
+		<!-- start productSlider -->
 		<div class="row">
 			<div class="col-12">
 				@@include('../sliders/productSlider.html', {"title": "لوازم خانگی", "product": "متابوک هواوای دی رایزن 5", "price": "7,800,000"})
 			</div>
 		</div>
+		<!-- end productSlider -->
+
+		<!-- start productSlider -->
 		<div class="row">
 			<div class="col-12">
 				@@include('../sliders/productSlider.html', {"title": "کامپیوتر", "product": "متابوک هواوای دی رایزن 5", "price": "7,800,000"})
 			</div>
 		</div>
+		<!-- end productSlider -->
+
+		<!-- start brandSlider -->
 		<div class="row">
 			<div class="col-12">
 				@@include('../sliders/brandSlider.html')
 			</div>
 		</div>
+		<!-- end brandSlider -->
 	</div>
+	
+	<!-- start footer -->
 	@@include('footer.html')
+	<!-- end footer -->
 </div>
