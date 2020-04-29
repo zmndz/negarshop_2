@@ -269,11 +269,18 @@ $(document).ready(function() {
   (function setSpecialSliderTimer() {
     // var sliders = $('.special-slider__item');
 
+    // console.log("sliders: ", sliders)
     // sliders.map(function(index, item) {
     //   var secondsa = $('.special-slider__counter-second--value span')[index].innerHTML;
     //   var minutesa = $('.special-slider__counter-minute--value')[index].innerHTML;
     //   var hoursa = $('.special-slider__counter-hour--value')[index].innerHTML;
     //   var daysa = $('.special-slider__counter-day--value')[index].innerHTML;
+
+    //   console.log("secondsa: ", secondsa)
+    //   console.log("minutesa: ", minutesa)
+    //   console.log("hoursa: ", hoursa)
+    //   console.log("daysa: ", daysa)
+
 
     //   var seconds = (secondsa*1000) + (minutesa*60000) + (hoursa*3600000) + (daysa*86400000);
     //   // var upgradeTime = 172801;
