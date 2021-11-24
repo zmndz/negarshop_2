@@ -1,3 +1,7 @@
+#Negarshop
+
+This is a static HTML template that can be converted into a WordPress theme
+
 ## Installation:
 
 ### 'yarn install'
